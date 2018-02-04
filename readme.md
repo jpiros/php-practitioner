@@ -14,3 +14,6 @@ Create a list of key value pairs and then display them as an unordered list in t
 
 ### Booleans
 Create a task list and represent if the task is completed by using a boolean (true/false) value.
+
+### Conditionals
+Display a checkbox or incomplete text based on boolean value.
