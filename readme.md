@@ -17,3 +17,6 @@ Create a task list and represent if the task is completed by using a boolean (tr
 
 ### Conditionals
 Display a checkbox or incomplete text based on boolean value.
+
+### Functions
+Create a block of code that can be reusable.
