@@ -1,9 +1,9 @@
 <?php
 
-$animals = ['dog', 'cat'];
+require 'vendor/autoload.php';
+require 'core/bootstrap.php';
 
-require 'functions.php';
+use App\Core\{Router, Request}; 
 
-dd($animals);
-
-require "index.view.php";
+Router::load('app/routes.php')
+  ->direct(Request::uri(), Request::method());
